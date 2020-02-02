@@ -1,0 +1,13 @@
+.bg-light {
+    background-color: #F7b58c !important;
+  }
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+  /* this for css grid of photos  */
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-gap: 1rem;
+  }
