@@ -11,6 +11,11 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     grid-gap: 1rem;
   }
+/*this to resize images for diff devices*/
+  .text-center img {
+    width: 80%;
+    height: auto;
+  }
   /* this for the lil zoom on hover */
   .zoom {
     transition: transform .3s;
